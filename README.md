@@ -1,8 +1,46 @@
-# ``Visual BETA | FF``
-- **Join in —** **[Visual BETA](https://dsc.gg/visualontop) ✨**
----
-> **Best ``FF`` To Uncap ``FPS``. 🪬**
+<h1 align="center">Fast Flag List</h2>
 
-![Visual](https://media.discordapp.net/attachments/1227897272969330730/1316175246964822170/ccca919e7533b381fa9f901f150f6f41.gif?ex=675b68b8&is=675a1738&hm=db943630a0b2eb7f033d69b2e1cab940ba8f6f958c916f2545d51846918d17fb&=&width=675&height=437)
-
-- **Made By [@Tevfn](https://discord.com/users/1213487849547104269) On Discord.**
+### Displays FPS
+```
+{
+    "FFlagDebugDisplayFPS": true
+}
+```
+### Gray Sky
+```
+{
+  "FFlagDebugSkyGray": "true"
+}
+```
+### Uncap FPS
+```
+{
+  "DFIntTaskSchedulerTargetFps": "5588562",
+  "FFlagTaskSchedulerLimitTargetFpsTo2402": "False",
+  "FFlagGameBasicSettingsFramerateCap5": "False"
+}
+```
+### Uncap FPS (V2)
+```
+{
+"DFIntConnectionMTUSize": "900",
+"FFlagDebugDisableTelemetryEphemeralCounter": "True",
+"FFlagDebugDisableTelemetryEphemeralStat": "True",
+"FFlagDebugDisableTelemetryEventIngest": "True",
+"FFlagDebugDisableTelemetryPoint": "True",
+"FFlagDebugDisableTelemetryV2Counter": "True",
+"FFlagDebugDisableTelemetryV2Event": "True",
+"FFlagDebugDisableTelemetryV2Stat": "True",
+"FIntFRMMinGrassDistance": 0,
+"FIntFRMMaxGrassDistance": 0,
+"FIntRenderGrassDetailStrands": 0,
+"FintRenderGrassHeightScaler": 0,
+"FIntFullscreenTitleBarTriggerDelayMillis": "18000000",
+"FFlagFastGPULightCulling3": "True",
+"FFlagNewLightAttenuation": "True",
+"FFlagDisablePostFx": "True",
+"DFIntClientLightingTechnologyChangedTelemetryHundredthsPercent": "0",
+"DFIntClientLightingEnvmapPlacementTelemetryHundredthsPercent": "100",
+"FIntMockClientLightingTechnologyIxpExperimentMode": "0",
+}
+```
